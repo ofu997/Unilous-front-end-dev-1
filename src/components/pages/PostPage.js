@@ -18,7 +18,6 @@ import searchIcon from '../../static/svg/searchWW.svg'
 import { setCurrentUserSP } from '../../reducers/currentUser'
 import { setAlert, resetAlert } from '../../reducers/alertNotif'
 import { useField, triggerAlert, palletteGenerator } from '../../functions/functions'
-import { Helmet } from 'react-helmet'
 
 const PostPage = (props) => {
     const [currentPost, setCurrentPost] = useState({

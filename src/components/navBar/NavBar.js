@@ -189,8 +189,12 @@ let NavBar = (props) => {
                     </div>
                     <UserContainer />
                 </div>
-                <div onClick={() => props.resetAlert()} className="alert-bar-container" style={alertBarStyle}>
+                {/* <div onClick={() => props.resetAlert()} className="alert-bar-container" style={alertBarStyle}>
                     {props.alertNotif.message}
+                </div> */}
+                <div className="alert-bar-container" style={alertBarStyle}>
+                    <div className="message">{props.alertNotif.message}</div>
+                    <h2 onClick={() => props.resetAlert()} className="close">x</h2>
                 </div>
             </div>
             <div className="nav-container-m SWM">

@@ -15,6 +15,7 @@ import './static/css/navBar.css'
 import './static/css/formContainer.css'
 import { FIND_USER, PENDING_NOTIFS } from './schemas/queries'
 
+
 const App = (props) => {
   const [query, setQuery] = useState('')
 

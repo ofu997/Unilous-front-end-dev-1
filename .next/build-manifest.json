@@ -1,8 +1,8 @@
 {
   "devFiles": [
     "static/runtime/react-refresh.js",
-    "static/development/dll/dll_488eafed3e1ff4532d14.js",
-    "static/development/dll/dll_488eafed3e1ff4532d14.js.map"
+    "static/development/dll/dll_dc8ac110ce5d8530b237.js",
+    "static/development/dll/dll_dc8ac110ce5d8530b237.js.map"
   ],
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
@@ -10,10 +10,6 @@
   ],
   "pages": {
     "/PostFormPage": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/UserPage": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -27,6 +23,10 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

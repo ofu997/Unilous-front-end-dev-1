@@ -37,7 +37,7 @@
     "build": "next build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "next", 
+    "dev": "next"
   },
   "browserslist": {
     "production": [

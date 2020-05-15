@@ -60,7 +60,10 @@ const UserPage = (props) => {
   //   }
   //   const pallette = palletteGenerator("rgb(40,40,40)").colorPallette
     return (
-      <h1 className={UP.test}>UserPage.js</h1>
+      <React.Fragment>
+        <h1 className={UP.test}>UserPage.js</h1>
+        <img src='/svg/userB.svg'></img>
+      </React.Fragment>
         // <div className={UP.UP-container}>
         //   <div className="navbar-height" style={{gridColumn: '1/3'}} />
         //   <div className={UP.UP-content}>

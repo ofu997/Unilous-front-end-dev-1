@@ -65,7 +65,7 @@ const UserPage = (props) => {
         //   <div className="navbar-height" style={{gridColumn: '1/3'}} />
         //   <div className={UP.UP-content}>
         //     <div className={UP.UP-title-container}>
-        //       <img className={UP.UP-title-icon} src={userIcon} alt="user" />
+        //       <img className={UP.UP-title-icon} src='/svg/userB.svg' alt="user" />
         //       <h2 className={UP.UP-title}>{currentUser.username}</h2>
         //     </div>
         //     <h3 className={UP.UP-title} style={{opacity: '0.8'}}>profile link</h3>

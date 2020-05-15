@@ -216,7 +216,7 @@ const PostPage = (props) => {
 
     // const teamHTML = currentPost.team ? currentPost.team.map(un =>
     //     <Link to={`/user/${un}`} className={ppStyle.PPC-user-container neutralize-link} key={`PT${un}`}>
-    //         <img className={ppStyle.PPC-user-icon} src={userIcon} alt="user" />
+    //         <img className={ppStyle.PPC-user-icon} src='/svg/userB.svg' alt="user" />
     //         <p className="NM">{un}</p>
     //     </Link>
         
@@ -227,15 +227,15 @@ const PostPage = (props) => {
     //         return (
     //             <div className={ppStyle.home-options}>
     //                 <Link to="/browse/" className={`${ppStyle.home-option} neutralize-link`} style={{backgroundColor: '#282828'}}>
-    //                     <img src={searchIcon} className={ppStyle.home-option-icon} alt="search" />
+    //                     <img src='/svg/searchWW.svg' className={ppStyle.home-option-icon} alt="search" />
     //                     <h3 className={ppStyle.home-option-text}>browse all</h3>
     //                 </Link>
     //                 <Link to="/post-form/" className={`${ppStyle.home-option} neutralize-link`} style={{backgroundColor: 'rgb(52,166,95)'}}>
-    //                     <img src={plusIcon} className={ppStyle.home-option-icon} alt="add" />
+    //                     <img src='/svg/plusW.svg' className={ppStyle.home-option-icon} alt="add" />
     //                     <h3 className={ppStyle.home-option-text}>add project</h3>
     //                 </Link>
     //                 <a href="https://discord.gg/v7vFc9U" className={`${ppStyle.home-option} ${ppStyle.home-option-highlight} neutralize-link`} style={{backgroundColor: '#7289DA'}}>
-    //                     <img src={discordIcon} className={ppStyle.home-option-icon} alt="Discord" />
+    //                     <img src='/svg/websites/discord.svg' className={ppStyle.home-option-icon} alt="Discord" />
     //                     <h3 className={ppStyle.home-option-text}>community discord</h3>
     //                 </a>
     //             </div>
@@ -290,7 +290,7 @@ const PostPage = (props) => {
                     <h2 className={ppStyle.PPC-title}>{currentPost.title}</h2>
                     <div className={ppStyle.PPC-sub-header}>
                         <Link to={`/user/${currentPost.user.username}`} className={`${ppStyle.PPC-user-container} neutralize-link`}>
-                            <img className={ppStyle.PPC-user-icon} src={userIcon} alt="user" />
+                            <img className={ppStyle.PPC-user-icon} src='/svg/userB.svg' alt="user" />
                             <p className="NM">{currentPost.user.username}</p>
                         </Link>
                         <p className={ppStyle.PPC-time}>{cleanedTime}</p>

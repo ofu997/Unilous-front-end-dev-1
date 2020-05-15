@@ -1,23 +1,21 @@
 import React, { useState } from 'react'
-import userIconB from '../static/svg/userB.svg'
 import handshakeIconB from '../static/svg/handshakeB.svg'
-import plusIconB from '../static/svg/plusB.svg'
-import shareIconB from '../static/svg/shareB.svg'
-import shrinkB from '../static/svg/shrinkB.svg'
-import userIconW from '../static/svg/userW.svg'
 import handshakeIconW from '../static/svg/handshakeW.svg'
-import plusIconW from '../static/svg/plusW.svg'
+// import logoIcon from '../static/svg/logo/logoW.svg'
+import shareIconB from '../static/svg/shareB.svg'
 import shareIconW from '../static/svg/shareW.svg'
+import shrinkB from '../static/svg/shrinkB.svg'
 import shrinkW from '../static/svg/shrinkW.svg'
-import discordIcon from '../static/svg/websites/discord.svg'
-import facebookIcon from '../static/svg/websites/facebook.svg'
-import internetIcon from '../static/svg/websites/internet.svg'
-import linkedinIcon from '../static/svg/websites/linkedin.svg'
-import slackIcon from '../static/svg/websites/slack.svg'
-import whatsappIcon from '../static/svg/websites/whatsapp.svg'
-import trelloIcon from '../static/svg/websites/trello.svg'
-import gitHubIcon from '../static/svg/websites/gitHub.svg'
-import logoIcon from '../static/svg/logo/logoW.svg'
+import userIconB from '../static/svg/userB.svg'
+import userIconW from '../static/svg/userW.svg'
+// import discordIcon from '../static/svg/websites/discord.svg'
+// import facebookIcon from '../static/svg/websites/facebook.svg'
+// import gitHubIcon from '../static/svg/websites/gitHub.svg'
+// import internetIcon from '../static/svg/websites/internet.svg'
+// import linkedinIcon from '../static/svg/websites/linkedin.svg'
+// import slackIcon from '../static/svg/websites/slack.svg'
+// import trelloIcon from '../static/svg/websites/trello.svg'
+// import whatsappIcon from '../static/svg/websites/whatsapp.svg'
 
 export const triggerAlert = (type, message, setAlert, resetAlert) => {
     // triggerAlert('warning', 'success: alert bar is working', props.setAlert, props.resetAlert)
@@ -35,40 +33,40 @@ export const triggerAlert = (type, message, setAlert, resetAlert) => {
 
 export const websiteStats = (url) => {
     if (url.split('/').length < 3) {
-        return {icon: internetIcon, color: '#484848',title: 'unknown url'}
+        return {icon: '/svg/websites/internet.svg', color: '#484848',title: 'unknown url'}
     }
     const start = url.split('/')[2]
     if (start.includes('unilous')) {
-        return {icon: logoIcon, color: '#282828', title: 'Unilous'}
+        return {icon: 'svg/logo/logoW.svg', color: '#282828', title: 'Unilous'}
     }
     if (start.includes('discord')) {
-        return {icon: discordIcon, color: '#7289DA', title: 'Discord'}
+        return {icon: '/svg/websites/discord.svg', color: '#7289DA', title: 'Discord'}
     }
     if (start.includes('trello')) {
-        return {icon: trelloIcon, color: '#0079BF', title: 'Trello'}
+        return {icon: '/svg/websites/trello.svg', color: '#0079BF', title: 'Trello'}
     }
     if (start.includes('whatsapp')) {
-        return {icon: whatsappIcon, color: '#25D366', title: 'WhatsApp'}
+        return {icon: '/svg/websites/whatsapp.svg', color: '#25D366', title: 'WhatsApp'}
     }
     if (start.includes('monday')) {
         return {icon: 'https://i.imgur.com/bgaQZc9.png', color: '#333333', title: 'Monday'}
     }
     if (start.includes('slack')) {
-        return {icon: slackIcon, color: '#4A154B', title: 'Slack'}
+        return {icon: '/svg/websites/slack.svg', color: '#4A154B', title: 'Slack'}
     }
     if (start.includes('linkedin')) {
-        return {icon: linkedinIcon, color: 'rgb(40,103,178)', title: 'LinkedIn'}
+        return {icon: '/svg/websites/linkedin.svg', color: 'rgb(40,103,178)', title: 'LinkedIn'}
     }
     if (start.includes('facebook')) {
-        return {icon: facebookIcon, color: 'rgb(66,103,178)', title: 'Facebook'}
+        return {icon: '/svg/websites/facebook.svg', color: 'rgb(66,103,178)', title: 'Facebook'}
     }
     if (start.includes('indeed')) {
         return {icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgohire-website.s3.amazonaws.com%2Fimg%2Fintegration-logos%2Findeed-icon.jpg&f=1&nofb=1', color: '#282828', title: 'Indeed'}
     }
     if (start.includes('github')) {
-        return {icon: gitHubIcon, color: '#333', title: 'GitHub'}
+        return {icon: '/svg/websites/gitHub.svg', color: '#333', title: 'GitHub'}
     }
-    return {icon: internetIcon, color: '#282828',title: 'unknown url'}
+    return {icon: '/svg/websites/internet.svg', color: '#282828',title: 'unknown url'}
 }
 
 export const useField = (type) => {
@@ -105,7 +103,7 @@ export const palletteGenerator = (primaryColor) => {
             higherColor,
             userIcon: userIconW,
             handshakeIcon: handshakeIconW,
-            plusIcon: plusIconW,
+            plusIcon: '/svg/plusW.svg',
             shareIcon: shareIconW,
             shrinkIcon: shrinkW,
             colored: {
@@ -121,7 +119,7 @@ export const palletteGenerator = (primaryColor) => {
             higherColor,
             userIcon: userIconB,
             handshakeIcon: handshakeIconB,
-            plusIcon: plusIconB,
+            plusIcon: '/svg/plusB.svg',
             shareIcon: shareIconB,
             shrinkIcon: shrinkB,
             colored: {

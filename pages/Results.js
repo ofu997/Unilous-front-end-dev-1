@@ -114,8 +114,8 @@ const Results = (props) => {
     // const layoutClass = !props.stretchLayout ? 'results-content-grid' : 'results-content-stretch'
     
     // const eventsList = [
-    //     {name: 'COVID-19', color: 'rgb(237,32,40)', iconB: covidIconB, iconW: covidIconW, iconC: covidIconC},
-    //     {name: '2020 Election', color: 'rgb(255,0,255)', iconB: usaIconB, iconW: usaIconW, iconC: usaIconC}
+    //     {name: 'COVID-19', color: 'rgb(237,32,40)', iconB: covidIconB, iconW: '/svg/events/virusW.svg', iconC: '/svg/events/virusC.svg',
+    //     {name: '2020 Election', color: 'rgb(255,0,255)', iconB: usaIconB, iconW: '/svg/events/usaW.svg', iconC: '/svg/events/usaC.svg' 
     // ]
     // const eventsHTML = eventsList.map(e => e.name === props.eventSearch ? 
     //     <div className={resStyle.event-selected} onClick={() => props.setEventSearch(null)} style={{borderColor: e.color, backgroundColor: e.color}} key={`EV${e.name}`}>

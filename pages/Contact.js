@@ -23,7 +23,7 @@ const Contact = (props) => {
                 </div>
                 <div className={contStyle.contact-container}>
                     <Link to="/user/nesutortik" className={`${contStyle.contact-header} neutralize-link`}>
-                        <img src={logoIcon} className={contStyle.CH-icon} alt="ProjectU" />
+                        <img src='/svg/logo/logoW.svg' className={contStyle.CH-icon} alt="ProjectU" />
                         <h3 className={contStyle.CH-name}>Umyarov Mikhail</h3>
                     </Link>
                     <img src="https://i.imgur.com/ew81eQe.png" className={contStyle.profile-image} alt="profile" />

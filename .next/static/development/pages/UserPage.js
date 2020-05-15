@@ -91,7 +91,7 @@ eval("var api = __webpack_require__(/*! ../../node_modules/next/node_modules/sty
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!***************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FUserPage&absolutePagePath=%2Fhome%2Foliver%2FDocuments%2Fprojects%2FUnilous-front-end-dev-1%2Fpages%2FUserPage.js&hotRouterUpdates=false ***!
   \***************************************************************************************************************************************************************************************/
@@ -114,4 +114,4 @@ eval("module.exports = dll_2adc2403d89adc16ead0;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);

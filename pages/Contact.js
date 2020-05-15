@@ -1,6 +1,5 @@
 import React from 'react'
 import contStyle from '../styles/pages/contact.module.css'
-// import logoIcon from '../src/static/svg/logo/logoW.svg'
 
 const Contact = (props) => {
     return (

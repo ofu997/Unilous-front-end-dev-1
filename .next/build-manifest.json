@@ -9,10 +9,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Contact": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/PostFormPage": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

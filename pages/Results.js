@@ -1,11 +1,5 @@
 import React from 'react'
 import resStyle from '../styles/pages/results.module.css'
-// import covidIconB from '../src/static/svg/events/virusB.svg'
-// import covidIconW from '../src/static/svg/events/virusW.svg'
-// import covidIconC from '../src/static/svg/events/virusC.svg'
-// import usaIconB from '../src/static/svg/events/usaB.svg'
-// import usaIconW from '../src/static/svg/events/usaW.svg'
-// import usaIconC from '../src/static/svg/events/usaC.svg'
 
 const Results = (props) => {
     // const currentIds = props.posts ? props.posts.map(p => p._id) : []
